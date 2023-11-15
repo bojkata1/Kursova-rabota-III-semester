@@ -1,21 +1,10 @@
 #include "Product.h"
 #include "Functions.h"
 Product::Product(){
-	std::string code, price;
-	std::cout << "Enter product's name: "; std::getline(std::cin, name);
-
-	do {
-		std::cout << "Enter product's code: "; std::getline(std::cin, code); 
-	} while (!isValidNumber(code, false)); // checking if the number is valid
-
-	std::cout << "Enter product's category: "; std::getline(std::cin, category);
-
-	do {
-		std::cout << "Enter product's price: "; std::getline(std::cin, price);
-	} while (!isValidNumber(price, true)); // checking if the number is valid
-
-	this->code = stoi(code);
-	this->price = stof(price);
+	setName();
+	setCode();
+	setCategory();
+	setPrice();
 }
 
 // Getters
