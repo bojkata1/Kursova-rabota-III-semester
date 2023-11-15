@@ -1,4 +1,4 @@
-# Course work - III semester - English
+# Course work - III-rd semester - English
 ## Requirements
 Build a program to enter product data in a store in an array of records having the following structure: product name, product code, category and price. The program should have the following functionalities:
 - Ability to input and output product data.
@@ -6,7 +6,7 @@ Build a program to enter product data in a store in an array of records having t
 - To sort products alphabetically by product name and output the sorted data - using selection sort.
 - To find all products that are in a certain price range (the value is entered from the keyboard). The results should be displayed sorted in descending order.
 
-# Курсова работа - III семестър - Български
+# Курсова работа - III-ти семестър - Български
 ## Изисквания
 Да се състави програма за въвеждане на данни за продукти в магазин в масив от записи, имащи следната структура: име на продукта, продуктор код, категория и цена. Програмата да има следните функционалности:
 -	Възможност за въвеждане и извеждане на данни за продуктите.
